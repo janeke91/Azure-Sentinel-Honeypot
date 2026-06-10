@@ -42,9 +42,8 @@ The VM was found by automated scanners within a few hours. After letting it run,
 | London, UK | 44 |
 | Sydney, Australia | 14 |
 
-Most bots tried usernames like `Administrator`, `admin`,  
+Most bots tried usernames like "Administrator", "admin",  
 
----
 
 ## Detection Rules
 
@@ -53,4 +52,3 @@ I created two analytics rules in Sentinel:
 - **Brute Force Attempt Detection** — fires when an IP generates multiple failed logins in a short window (MITRE ATT&CK: T1110)
 - **Successful Login After Brute Force** — correlates a series of failures with a subsequent successful login from the same IP, which could indicate a compromised account
 
----
