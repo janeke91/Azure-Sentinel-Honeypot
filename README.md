@@ -42,7 +42,7 @@ The VM was found by automated scanners within a few hours. After letting it run,
 | London, UK | 44 |
 | Sydney, Australia | 14 |
 
-Most bots tried usernames like "Administrator", "admin",  
+Most bots tried usernames like "Administrator", "admin", "Test" and the name of the VM itself.
 
 
 ## Detection Rules
