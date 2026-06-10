@@ -16,7 +16,7 @@ All the attack data flows into Microsoft Sentinel where I built an attack map, w
 
 ## How It Works
 
-The VM sits in Azure with all ports open. Every failed login attempt generates a Windows Security Event (ID 4625), which the Azure Monitor Agent forwards to Log Analytics. From there, Sentinel picks it up, enriches it with geolocation data, and visualizes it on a world map.
+The VM sits in Azure with all ports open. Every failed login attempt generates a Windows Security Event (ID 4625), which the Azure Monitor Agent forwards to Log Analytics. From there, Sentinel takes the data, adds geographical locations to it, and displays it on a world map.
 
 **Core KQL query for the attack map:**
 ```kql
@@ -42,7 +42,7 @@ The VM was found by automated scanners within a few hours. After letting it run,
 | London, UK | 44 |
 | Sydney, Australia | 14 |
 
-Most bots tried usernames like `Administrator` and `admin` — exactly what you'd expect from credential stuffing attacks.
+Most bots tried usernames like `Administrator`, `admin`,  
 
 ---
 
