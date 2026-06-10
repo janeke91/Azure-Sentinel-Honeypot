@@ -6,7 +6,7 @@ All the attack data flows into Microsoft Sentinel where I built an attack map, w
 
 ## Architecture
 
-<img width="2004" height="1016" alt="Architecture" src="https://github.com/user-attachments/assets/22f76ee4-0723-40c7-b3e2-fb77a896bd55" />
+
 
 ## What I Used
 
