@@ -4,6 +4,10 @@ I built this lab to get hands-on experience with cloud security monitoring. The 
 
 All the attack data flows into Microsoft Sentinel where I built an attack map, wrote KQL queries to analyze the traffic, and set up detection rules to alert on suspicious activity.
 
+## Architecture
+
+<img width="2004" height="1016" alt="Architecture" src="https://github.com/user-attachments/assets/22f76ee4-0723-40c7-b3e2-fb77a896bd55" />
+
 ## What I Used
 
 - **Azure VM** - Windows Server 2025, exposed as a honeypot
