@@ -1,6 +1,6 @@
 # Azure Sentinel Honeypot Lab
 
-I built this lab to get hands-on experience with cloud security monitoring. The idea is simple: spin up a Windows Server VM in Azure, expose it to the internet, and watch what happens. Spoiler: it gets attacked almost immediately.
+I built this lab to get hands-on experience with cloud security monitoring. The idea is simple. Spin up a Windows Server VM in Azure, expose it to the internet, and watch what happens. Spoiler: it gets attacked almost immediately.
 
 All the attack data flows into Microsoft Sentinel where I built an attack map, wrote KQL queries to analyze the traffic, and set up detection rules to alert on suspicious activity.
 
@@ -60,11 +60,3 @@ I created two analytics rules in Sentinel:
 - **Successful Login After Brute Force** — correlates a series of failures with a subsequent successful login from the same IP, which could indicate a compromised account
 
 ---
-
-## Screenshots
-
-### Attack Map
-![Attack Map](screenshots/map.png)
-
-### Analytics Rule
-![Analytics Rule](screenshots/analytic_rule.png)
