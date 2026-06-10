@@ -38,7 +38,6 @@ The VM was found by automated scanners within a few hours. After letting it run,
 |---|---|
 | Hanoi, Vietnam | 904 |
 | Bupyeong-gu, South Korea | 233 |
-| Other | 138 |
 | London, UK | 44 |
 | Sydney, Australia | 14 |
 
