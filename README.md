@@ -4,8 +4,6 @@ I built this lab to get hands-on experience with cloud security monitoring. The 
 
 All the attack data flows into Microsoft Sentinel where I built an attack map, wrote KQL queries to analyze the traffic, and set up detection rules to alert on suspicious activity.
 
----
-
 ## What I Used
 
 - **Azure VM** — Windows Server 2025, exposed as a honeypot
@@ -15,8 +13,6 @@ All the attack data flows into Microsoft Sentinel where I built an attack map, w
 - **KQL** — querying and enriching the logs
 - **Sentinel Workbooks** — attack map visualization
 - **Sentinel Watchlists** — GeoIP database for IP-to-location mapping
-
----
 
 ## How It Works
 
@@ -33,8 +29,6 @@ Event
 | evaluate ipv4_lookup(GeoIPDB, IpAddress, network)
 | summarize FailureCount = count() by IpAddress, latitude, longitude, countryname, cityname
 ```
-
----
 
 ## Results
 
