@@ -56,7 +56,14 @@ I created two analytics rules in Sentinel:
 - **Successful Login After Brute Force** — correlates a series of failures with a subsequent successful login from the same IP, which could indicate a compromised account
 
 ## Screenshots 
+## Map
 
 <img width="1870" height="816" alt="map" src="https://github.com/user-attachments/assets/597a64e9-a038-4584-bf8e-e1931ca27430" />
+
+## Analytic rules
+
+<img width="1928" height="1208" alt="succesfulllogin_ar" src="https://github.com/user-attachments/assets/32510972-f27b-4c68-8641-e640531d6a9f" />
+
+<img width="2554" height="1304" alt="bruteforce_ar" src="https://github.com/user-attachments/assets/ac06f99e-3313-4e28-a2f0-ff07b530f246" />
 
 
