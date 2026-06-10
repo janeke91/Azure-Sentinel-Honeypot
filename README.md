@@ -6,7 +6,7 @@ All the attack data flows into Microsoft Sentinel where I built an attack map, w
 
 ## Architecture
 
-
+<img width="1996" height="1016" alt="architecure" src="https://github.com/user-attachments/assets/74129ba4-d1d3-430b-9a00-dffb9066caba" />
 
 ## What I Used
 
@@ -54,4 +54,9 @@ I created two analytics rules in Sentinel:
 
 - **Brute Force Attempt Detection** — fires when an IP generates multiple failed logins in a short window (MITRE ATT&CK: T1110)
 - **Successful Login After Brute Force** — correlates a series of failures with a subsequent successful login from the same IP, which could indicate a compromised account
+
+## Screenshots 
+
+<img width="1870" height="816" alt="map" src="https://github.com/user-attachments/assets/597a64e9-a038-4584-bf8e-e1931ca27430" />
+
 
