@@ -6,13 +6,13 @@ All the attack data flows into Microsoft Sentinel where I built an attack map, w
 
 ## What I Used
 
-- **Azure VM** Windows Server 2025, exposed as a honeypot
-- **Log Analytics Workspace** central log storage
-- **Azure Monitor Agent** collects security events from the VM
-- **Microsoft Sentinel** SIEM for analysis and alerting
-- **KQL** querying and enriching the logs
-- **Sentinel Workbooks** attack map visualization
-- **Sentinel Watchlists** GeoIP database for IP-to-location mapping
+- **Azure VM** - Windows Server 2025, exposed as a honeypot
+- **Log Analytics Workspace** - central log storage
+- **Azure Monitor Agent** - collects security events from the VM
+- **Microsoft Sentinel** - SIEM for analysis and alerting
+- **KQL** - searching through the logs and adding extra context to them.
+- **Sentinel Workbooks** - attack map visualization
+- **Sentinel Watchlists** - GeoIP database for IP-to-location mapping
 
 ## How It Works
 
